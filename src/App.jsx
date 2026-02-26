@@ -9,8 +9,11 @@ import CareerGuidance from './pages/CareerGuidance'
 import Contact from './pages/Contact'
 
 function App() {
+  // Get base path for GitHub Pages
+  const basename = import.meta.env.BASE_URL || '/nvns/'
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/course/:slug" element={<CourseDetail />} />
