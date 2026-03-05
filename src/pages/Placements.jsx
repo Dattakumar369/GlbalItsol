@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import WhatsAppFloat from '../components/WhatsAppFloat'
 import ContactForm from '../components/ContactForm'
+import SEO from '../components/SEO'
 
 const Placements = () => {
   const [visibleSections, setVisibleSections] = useState({})
@@ -289,8 +290,14 @@ const Placements = () => {
   ]
 
   return (
-    <div className="min-h-screen">
-      <Header />
+    <>
+      <SEO 
+        title="Placement Assistance - Global IT Solutions | 100% Placement Rate | 2K+ Students Placed"
+        description="Get 100% placement assistance at Global IT Solutions. 2K+ students placed in top companies like TCS, Infosys, Wipro, Accenture, Microsoft, Amazon. Resume building, interview preparation, job matching services."
+        keywords="placement assistance, job placement, IT job placement, software job placement, placement services Hyderabad, resume building, interview preparation, top IT companies, placement rate"
+      />
+      <div className="min-h-screen">
+        <Header />
       
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white section-padding overflow-hidden">
@@ -727,7 +734,8 @@ const Placements = () => {
         onClose={() => setShowContactForm(false)}
         defaultMessage="Hello! I would like to schedule a consultation with the placement team."
       />
-    </div>
+      </div>
+    </>
   )
 }
 

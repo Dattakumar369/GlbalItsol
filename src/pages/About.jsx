@@ -3,6 +3,7 @@ import { Award, Users, Briefcase, Target, TrendingUp, CheckCircle, Star } from '
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import WhatsAppFloat from '../components/WhatsAppFloat'
+import SEO from '../components/SEO'
 
 const About = () => {
   useEffect(() => {
@@ -47,8 +48,14 @@ const About = () => {
   ]
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
+    <>
+      <SEO 
+        title="About Us - Global IT Solutions | IT Training Institute Hyderabad | 10K+ Students Trained"
+        description="Learn about Global IT Solutions - a leading IT training institute in Hyderabad. 5+ years of excellence, 10K+ students trained, 2K+ placed, 100% placement rate. Industry-ready training programs."
+        keywords="about Global IT Solutions, IT training institute Hyderabad, software training center, tech education, IT courses, placement assistance, student success stories"
+      />
+      <div className="min-h-screen bg-gray-50">
+        <Header />
       
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white section-padding">
@@ -307,7 +314,8 @@ const About = () => {
 
       <Footer />
       <WhatsAppFloat />
-    </div>
+      </div>
+    </>
   )
 }
 

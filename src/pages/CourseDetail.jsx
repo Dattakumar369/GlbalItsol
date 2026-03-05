@@ -10,6 +10,7 @@ import WhatsAppFloat from '../components/WhatsAppFloat'
 import EnrollmentForm from '../components/EnrollmentForm'
 import ContactForm from '../components/ContactForm'
 import { getCourseBySlug } from '../data/coursesData'
+import SEO from '../components/SEO'
 
 const CourseDetail = () => {
   const { slug } = useParams()
@@ -51,9 +52,19 @@ const CourseDetail = () => {
     'DevOps Fundamentals': Cloud,
   }
 
+  const courseTitle = course ? `${course.title} - ${course.subtitle} | Global IT Solutions` : 'Course - Global IT Solutions'
+  const courseDescription = course ? `Learn ${course.title} at Global IT Solutions. ${course.description} Duration: ${course.duration}. 100% placement assistance. Enroll now!` : 'IT Training Course at Global IT Solutions'
+  const courseKeywords = course ? `${course.title.toLowerCase()}, ${course.subtitle.toLowerCase()}, IT training, software training, ${course.skills?.join(', ').toLowerCase()}, placement assistance, Hyderabad` : 'IT training, software training'
+
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
+    <>
+      <SEO 
+        title={courseTitle}
+        description={courseDescription}
+        keywords={courseKeywords}
+      />
+      <div className="min-h-screen bg-gray-50">
+        <Header />
       
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-600 via-primary-700 to-primary-800 text-white section-padding">
@@ -377,7 +388,8 @@ const CourseDetail = () => {
         onClose={() => setShowForm(false)}
         defaultMessage={course ? `Hello! I am interested in learning more about the ${course.title} course.` : 'Hello! I would like to know more about your courses.'}
       />
-    </div>
+      </div>
+    </>
   )
 }
 

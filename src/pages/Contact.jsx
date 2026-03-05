@@ -6,6 +6,7 @@ import WhatsAppFloat from '../components/WhatsAppFloat'
 import ContactForm from '../components/ContactForm'
 import { openWhatsApp } from '../utils/whatsapp'
 import { sendCourseInquiryEmail } from '../utils/emailService'
+import SEO from '../components/SEO'
 
 const Contact = () => {
   const [showContactForm, setShowContactForm] = useState(false)
@@ -115,7 +116,13 @@ const Contact = () => {
   ]
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO 
+        title="Contact Us - Global IT Solutions | IT Training Institute Hyderabad | Get Free Demo"
+        description="Contact Global IT Solutions for IT training courses. Located in Sanjeeva Reddy Nagar, Hyderabad. Call +91 77993 39337 or email info@globalitsolutions.in. Get free demo class and career guidance."
+        keywords="contact Global IT Solutions, IT training contact, software training Hyderabad, free demo class, career guidance, IT courses inquiry, training center Hyderabad"
+      />
+      <div className="min-h-screen">
       <Header />
       
       {/* Hero Section */}
@@ -385,7 +392,8 @@ const Contact = () => {
         onClose={() => setShowContactForm(false)}
         defaultMessage="Hello! I would like to contact you."
       />
-    </div>
+      </div>
+    </>
   )
 }
 
