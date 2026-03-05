@@ -89,7 +89,7 @@ const Header = () => {
                 className="flex items-center gap-3 hover:opacity-80 transition-opacity"
               >
                 <img 
-                  src="/nvns.png" 
+                  src="/globalitsol.png" 
                   alt="Global IT Solutions Logo" 
                   className="h-10 sm:h-12 md:h-14 w-auto object-contain"
                 />
