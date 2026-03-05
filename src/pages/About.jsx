@@ -42,7 +42,7 @@ const About = () => {
     { year: '2019', title: 'Founded', description: 'Started with a vision to bridge the gap between education and industry' },
     { year: '2020', title: 'First 1K Students', description: 'Reached milestone of training 1,000 students' },
     { year: '2021', title: '100% Placement', description: 'Achieved 100% placement rate for our students' },
-    { year: '2022', title: '50K+ Trained', description: 'Celebrated training over 50,000 students' },
+    { year: '2022', title: '5K+ Trained', description: 'Celebrated training over 5,000 students' },
     { year: '2024', title: '2K+ Placed', description: 'Successfully placed over 2,000 students in top companies' },
   ]
 
