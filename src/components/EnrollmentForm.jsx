@@ -137,7 +137,6 @@ const EnrollmentForm = ({ isOpen, onClose, courseName = '', courseSlug = '' }) =
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3.5 pl-12 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-gray-50 focus:bg-white"
-                  placeholder="John Doe"
                 />
                 <User className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
               </div>
@@ -157,7 +156,6 @@ const EnrollmentForm = ({ isOpen, onClose, courseName = '', courseSlug = '' }) =
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3.5 pl-12 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-gray-50 focus:bg-white"
-                  placeholder="john.doe@example.com"
                 />
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
               </div>
@@ -177,7 +175,6 @@ const EnrollmentForm = ({ isOpen, onClose, courseName = '', courseSlug = '' }) =
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3.5 pl-12 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-gray-50 focus:bg-white"
-                  placeholder="+91 9876543210"
                 />
                 <Phone className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
               </div>
@@ -197,7 +194,6 @@ const EnrollmentForm = ({ isOpen, onClose, courseName = '', courseSlug = '' }) =
                     value={formData.course}
                     onChange={handleChange}
                     className="w-full px-4 py-3.5 pl-12 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-gray-50 focus:bg-white"
-                    placeholder="Enter course name"
                   />
                   <BookOpen className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
                 </div>
@@ -216,7 +212,6 @@ const EnrollmentForm = ({ isOpen, onClose, courseName = '', courseSlug = '' }) =
                 onChange={handleChange}
                 rows="4"
                 className="w-full px-4 py-3.5 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-gray-50 focus:bg-white resize-none"
-                placeholder="Any additional information or questions you'd like to share..."
               />
             </div>
 

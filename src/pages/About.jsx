@@ -48,6 +48,7 @@ const About = () => {
   ]
 
   return (
+    
     <>
       <SEO 
         title="About Us - Global IT Solutions | IT Training Institute Hyderabad | 10K+ Students Trained"
