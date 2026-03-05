@@ -10,8 +10,8 @@ import Contact from './pages/Contact'
 
 function App() {
   // Get base path - use root for custom domain, /nvns/ for GitHub Pages subdomain
-  const isCustomDomain = window.location.hostname === 'nvnssoftwaresolutions.com' || 
-                         window.location.hostname === 'www.nvnssoftwaresolutions.com'
+  const isCustomDomain = window.location.hostname === 'globalitsolutions.in' || 
+                         window.location.hostname === 'www.globalitsolutions.in'
   const basename = isCustomDomain ? '/' : (import.meta.env.BASE_URL || '/nvns/')
   
   return (

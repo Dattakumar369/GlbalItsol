@@ -8,7 +8,7 @@ const Stats = () => {
     { number: '5+', label: 'Years of Excellence' },
     { number: '100%', label: 'Placement Rate' },
     { number: '2K+', label: 'Students Placed' },
-    { number: '100K+', label: 'Trained Students' },
+    { number: '10K+', label: 'Trained Students' },
   ]
 
   useEffect(() => {

@@ -165,7 +165,7 @@ const CareerGuidance = () => {
       image: 'KK',
     },
     {
-      name: 'Anjali Sharma',
+      name: 'Anjali',
       role: 'DevOps Engineer',
       company: 'Accenture',
       testimonial: 'The career path planning helped me understand which skills to develop. The personalized approach made all the difference.',
@@ -173,7 +173,7 @@ const CareerGuidance = () => {
       image: 'AS',
     },
     {
-      name: 'Rahul Mehta',
+      name: 'Ramakrishna',
       role: 'Full Stack Developer',
       company: 'Wipro',
       testimonial: 'I was confused about my career direction. The career counselor helped me identify my strengths and choose the right path. Now I\'m working in my dream role.',
@@ -181,7 +181,7 @@ const CareerGuidance = () => {
       image: 'RM',
     },
     {
-      name: 'Priya Nair',
+      name: 'Sailaja',
       role: 'Cloud Engineer',
       company: 'Amazon',
       testimonial: 'The skill gap analysis was eye-opening. They helped me create a learning plan and I successfully transitioned to cloud engineering. Best decision ever!',
@@ -197,7 +197,7 @@ const CareerGuidance = () => {
       image: 'VS',
     },
     {
-      name: 'Meera Joshi',
+      name: 'Meenakshi J',
       role: 'QA Automation Engineer',
       company: 'HCL',
       testimonial: 'As a career switcher, I needed guidance on how to present my experience. The resume optimization and interview prep sessions were game-changers.',
@@ -205,7 +205,7 @@ const CareerGuidance = () => {
       image: 'MJ',
     },
     {
-      name: 'Arjun Patel',
+      name: 'Arun D',
       role: 'Data Engineer',
       company: 'Cognizant',
       testimonial: 'The mentorship program helped me understand the data engineering career path. My mentor provided practical advice that I still use today.',
@@ -267,7 +267,7 @@ const CareerGuidance = () => {
       salary: '6.5 LPA',
     },
     {
-      name: 'Sunita Devi',
+      name: 'Sunita M',
       from: 'Banking Professional',
       to: 'Data Analyst',
       timeline: '4 months',
@@ -276,7 +276,7 @@ const CareerGuidance = () => {
       salary: '7 LPA',
     },
     {
-      name: 'Amit Verma',
+      name: 'Arjun Yadav',
       from: 'Marketing Executive',
       to: 'Digital Marketing Specialist',
       timeline: '3 months',
@@ -727,13 +727,13 @@ const CareerGuidance = () => {
               </button>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center text-primary-100">
-              <a href="tel:+916304576965" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="tel:+917799339337" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone className="h-5 w-5" />
-                <span>+91 63045 76965</span>
+                <span>+91 77993 39337</span>
               </a>
-              <a href="mailto:info@nvnssoftwaresolutions.com" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="mailto:info@globalitsolutions.in" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
-                <span>info@nvnssoftwaresolutions.com</span>
+                <span>info@globalitsolutions.in</span>
               </a>
             </div>
           </div>

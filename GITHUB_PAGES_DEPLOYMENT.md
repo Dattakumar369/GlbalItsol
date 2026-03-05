@@ -45,7 +45,7 @@ Your website will be available at:
 ### If You Want to Use Custom Domain:
 
 1. In repository **Settings** → **Pages**
-2. Under **Custom domain**, enter your domain: `nvnssoftwaresolutions.com`
+2. Under **Custom domain**, enter your domain: `globalitsolutions.in`
 3. Add a `CNAME` file in the repository root with your domain
 4. Update DNS records as instructed by GitHub
 
@@ -91,4 +91,5 @@ Every time you push to the `main` branch:
 ---
 
 **Your website URL:** https://nvnsit.github.io/nvns/
+
 

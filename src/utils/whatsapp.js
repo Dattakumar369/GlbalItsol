@@ -31,3 +31,4 @@ export const openWhatsAppForDemo = (courseName = '') => {
   openWhatsApp(message)
 }
 
+

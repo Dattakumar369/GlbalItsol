@@ -102,7 +102,7 @@ New {{type}} from {{from_name}}
 </head>
 <body>
     <div class="header">
-        <h1 style="margin: 0; font-size: 28px;">NVNS Software Solutions</h1>
+        <h1 style="margin: 0; font-size: 28px;">Global IT Solutions</h1>
         <p style="margin: 10px 0 0 0; opacity: 0.9;">New Contact Form Submission</p>
     </div>
     
@@ -164,7 +164,7 @@ New {{type}} from {{from_name}}
     </div>
     
     <div class="footer">
-        <p style="margin: 0;">This email was sent from NVNS Software Solutions website</p>
+        <p style="margin: 0;">This email was sent from Global IT Solutions website</p>
         <p style="margin: 5px 0 0 0; opacity: 0.8;">Reply to: {{reply_to}}</p>
     </div>
 </body>

@@ -15,7 +15,7 @@ const Hero = () => {
   }
 
   const handleTalkToExpert = () => {
-    window.location.href = 'tel:+916304576965'
+    window.location.href = 'tel:+917799339337'
   }
 
   return (
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="text-center mb-8 animate-fade-in">
             <span className="inline-flex items-center gap-2 glass-effect px-8 py-3 rounded-full text-sm font-bold mb-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <Award className="h-5 w-5 text-yellow-300" />
-              <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">Trusted by 100k+ Students Since 2019</span>
+              <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">Trusted by 10k+ Students Since 2019</span>
             </span>
           </div>
           
@@ -91,7 +91,7 @@ const Hero = () => {
               <div className="text-xs sm:text-sm font-semibold text-primary-100 uppercase tracking-wider leading-tight">Students Placed</div>
             </div>
             <div className="glass-effect rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 text-center transform hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-3xl border-2 border-white/30">
-              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">100K+</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">10K+</div>
               <div className="text-xs sm:text-sm font-semibold text-primary-100 uppercase tracking-wider leading-tight">Trained Students</div>
             </div>
           </div>

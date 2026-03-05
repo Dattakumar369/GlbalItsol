@@ -131,7 +131,7 @@ const Contact = () => {
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: 'WhatsApp Chat',
-      value: '+91 63045 76965',
+      value: '+91 77993 39337',
       action: 'Chat Now',
       color: 'bg-green-500',
       onClick: () => openWhatsApp()
@@ -139,18 +139,18 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Call Us',
-      value: '+91 63045 76965',
+      value: '+91 77993 39337',
       action: 'Call Now',
       color: 'bg-blue-500',
-      onClick: () => window.location.href = 'tel:+916304576965'
+      onClick: () => window.location.href = 'tel:+917799339337'
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Us',
-      value: 'info@nvnssoftwaresolutions.com',
+      value: 'info@globalitsolutions.in',
       action: 'Send Mail',
       color: 'bg-red-500',
-      onClick: () => window.location.href = 'mailto:info@nvnssoftwaresolutions.com?subject=Course Inquiry'
+      onClick: () => window.location.href = 'mailto:info@globalitsolutions.in?subject=Course Inquiry'
     },
     {
       icon: <Calendar className="h-6 w-6" />,

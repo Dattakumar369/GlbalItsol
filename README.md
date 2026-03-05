@@ -1,6 +1,6 @@
-# NVNS Software Solutions
+# Global IT Solutions
 
-A modern, responsive website for NVNS Software Solutions (nvnssoftwaresolutions.com) built with React and Tailwind CSS.
+A modern, responsive website for Global IT Solutions (globalitsolutions.in) built with React and Tailwind CSS.
 
 ## Features
 
@@ -198,11 +198,11 @@ Vercel is the easiest and fastest way to deploy this React app.
 3. **Deploy**:
    - Vercel will automatically detect Vite and build your project
    - Your site will be live at `your-project.vercel.app`
-   - You can add a custom domain: `nvnssoftwaresolutions.com`
+   - You can add a custom domain: `globalitsolutions.in`
 
 4. **Custom Domain Setup**:
    - In Vercel dashboard, go to Project Settings > Domains
-   - Add your domain: `nvnssoftwaresolutions.com`
+   - Add your domain: `globalitsolutions.in`
    - Follow DNS configuration instructions
    - Vercel will automatically configure SSL
 
@@ -293,11 +293,11 @@ jobs:
 4. **Deploy**:
    - Vercel will automatically detect Vite and build your project
    - Your site will be live at `your-project.vercel.app`
-   - You can add a custom domain: `nvnssoftwaresolutions.com`
+   - You can add a custom domain: `globalitsolutions.in`
 
 5. **Custom Domain Setup**:
    - In Vercel dashboard, go to Project Settings > Domains
-   - Add your domain: `nvnssoftwaresolutions.com`
+   - Add your domain: `globalitsolutions.in`
    - Follow DNS configuration instructions
    - Vercel will automatically configure SSL
 
@@ -324,5 +324,5 @@ For detailed deployment instructions, see [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## Support
 
-For support, visit [nvnssoftwaresolutions.com](https://nvnssoftwaresolutions.com) or contact through the website.
+For support, visit [globalitsolutions.in](https://globalitsolutions.in) or contact through the website.
 

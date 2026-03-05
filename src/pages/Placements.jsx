@@ -61,6 +61,28 @@ const Placements = () => {
     { number: '6.5 LPA', label: 'Average Salary', icon: <span className="text-2xl font-bold text-primary-600">₹</span> },
   ]
 
+  // Helper function to get company logo path
+  const getCompanyLogo = (companyName) => {
+    const logoMap = {
+      'TCS': '/logos/tcs.png',
+      'Infosys': '/logos/infosys.png',
+      'Wipro': '/logos/wipro.png',
+      'Accenture': '/logos/accenture.png',
+      'Cognizant': '/logos/cognizant.png',
+      'HCL': '/logos/hcl.png',
+      'Capgemini': '/logos/capgemini.png',
+      'Tech Mahindra': '/logos/tech-mahindra.png',
+      'LTI': '/logos/lti.png',
+      'IBM': '/logos/ibm.png',
+      'Microsoft': '/logos/microsoft.png',
+      'Amazon': '/logos/amazon.png',
+      'Oracle': '/logos/oracle.png',
+      'Dell': '/logos/dell.png',
+      'Cisco': '/logos/cisco.png',
+    }
+    return logoMap[companyName] || null
+  }
+
   const companies = [
     { name: 'TCS', logo: 'TCS', location: 'Hyderabad', roles: ['Software Engineer', 'System Analyst', 'Java Developer', 'Full Stack Developer'], salary: '4-8 LPA', openings: 45 },
     { name: 'Infosys', logo: 'Infosys', location: 'Bangalore', roles: ['Developer', 'Consultant', 'Full Stack Developer', 'DevOps Engineer'], salary: '4-9 LPA', openings: 52 },
@@ -425,16 +447,28 @@ const Placements = () => {
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <h4 className="text-xl font-bold text-gray-900 mb-1">
-                      {company.name}
-                    </h4>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3 mb-2">
+                      {getCompanyLogo(company.name) ? (
+                        <img 
+                          src={getCompanyLogo(company.name)} 
+                          alt={`${company.name} logo`}
+                          className="h-10 w-auto object-contain max-w-[120px]"
+                          onError={(e) => {
+                            e.target.style.display = 'none'
+                            e.target.nextSibling.style.display = 'flex'
+                          }}
+                        />
+                      ) : null}
+                      <div className={`${getCompanyLogo(company.name) ? 'hidden' : 'flex'} items-center justify-center bg-primary-100 rounded-lg p-2`}>
+                        <Building2 className="h-6 w-6 text-primary-600" />
+                      </div>
+                    </div>
                     <div className="flex items-center text-gray-600 text-sm">
                       <MapPin className="h-4 w-4 mr-1" />
                       {company.location}
                     </div>
                   </div>
-                  <Building2 className="h-8 w-8 text-primary-600" />
                 </div>
                 <div className="border-t border-gray-100 pt-4 mb-4">
                   <p className="text-sm text-gray-600 mb-2 font-medium">Open Roles:</p>
@@ -547,7 +581,20 @@ const Placements = () => {
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-center justify-between mb-4">
-                  <Building2 className="h-8 w-8 text-primary-600" />
+                  {getCompanyLogo(company.name) ? (
+                    <img 
+                      src={getCompanyLogo(company.name)} 
+                      alt={`${company.name} logo`}
+                      className="h-10 w-auto object-contain max-w-[100px]"
+                      onError={(e) => {
+                        e.target.style.display = 'none'
+                        e.target.nextSibling.style.display = 'flex'
+                      }}
+                    />
+                  ) : null}
+                  <div className={`${getCompanyLogo(company.name) ? 'hidden' : 'flex'} items-center justify-center bg-primary-100 rounded-lg p-2`}>
+                    <Building2 className="h-6 w-6 text-primary-600" />
+                  </div>
                   <span className="text-2xl font-bold text-primary-600">{company.placements}</span>
                 </div>
                 <h4 className="font-bold text-gray-900 text-lg mb-2">{company.name}</h4>
@@ -594,7 +641,20 @@ const Placements = () => {
                 </div>
                 <div className="mb-4 space-y-2">
                   <div className="flex items-center gap-2">
-                    <Building2 className="h-4 w-4 text-primary-600" />
+                    {getCompanyLogo(story.company) ? (
+                      <img 
+                        src={getCompanyLogo(story.company)} 
+                        alt={`${story.company} logo`}
+                        className="h-5 w-auto object-contain max-w-[60px]"
+                        onError={(e) => {
+                          e.target.style.display = 'none'
+                          e.target.nextSibling.style.display = 'flex'
+                        }}
+                      />
+                    ) : null}
+                    <div className={`${getCompanyLogo(story.company) ? 'hidden' : 'flex'} items-center`}>
+                      <Building2 className="h-4 w-4 text-primary-600" />
+                    </div>
                     <span className="font-semibold text-gray-900 text-sm">{story.company}</span>
                     <span className="text-xs text-gray-500">• {story.location}</span>
                   </div>
@@ -645,13 +705,13 @@ const Placements = () => {
               </button>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center text-primary-100">
-              <a href="tel:+916304576965" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="tel:+917799339337" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone className="h-5 w-5" />
-                <span>+91 63045 76965</span>
+                <span>+91 77993 39337</span>
               </a>
-              <a href="mailto:info@nvnssoftwaresolutions.com" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="mailto:info@globalitsolutions.in" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
-                <span>info@nvnssoftwaresolutions.com</span>
+                <span>info@globalitsolutions.in</span>
               </a>
             </div>
           </div>

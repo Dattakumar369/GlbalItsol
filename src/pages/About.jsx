@@ -10,7 +10,7 @@ const About = () => {
   }, [])
   const stats = [
     { icon: <Award className="h-8 w-8" />, number: '5+', label: 'Years of Excellence' },
-    { icon: <Users className="h-8 w-8" />, number: '100K+', label: 'Students Trained' },
+    { icon: <Users className="h-8 w-8" />, number: '10K+', label: 'Students Trained' },
     { icon: <Briefcase className="h-8 w-8" />, number: '2K+', label: 'Students Placed' },
     { icon: <Target className="h-8 w-8" />, number: '100%', label: 'Placement Rate' },
   ]
@@ -55,7 +55,7 @@ const About = () => {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              About NVNS Software Solutions
+              About Global IT Solutions
             </h1>
             <p className="text-xl text-primary-100 leading-relaxed">
               Transforming careers through industry-ready training programs. Empowering students to achieve their tech dreams since 2019.
@@ -180,7 +180,7 @@ const About = () => {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="section-title">
-              Why Choose <span className="gradient-text">NVNS Software Solutions</span>
+              Why Choose <span className="gradient-text">Global IT Solutions</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -285,7 +285,7 @@ const About = () => {
             Ready to Start Your Tech Journey?
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            Join 100,000+ students who have transformed their careers with our industry-ready programs.
+            Join 10,000+ students who have transformed their careers with our industry-ready programs.
           </p>
           <a
             href="#contact"

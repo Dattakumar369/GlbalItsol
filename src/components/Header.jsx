@@ -61,17 +61,17 @@ const Header = () => {
         <div className="container-custom">
           <div className="flex justify-between items-center px-4">
             <div className="flex items-center gap-2">
-              <span className="hidden sm:inline">Welcome to NVNS Software Solutions - Making careers better</span>
-              <span className="sm:hidden">Welcome to NVNS</span>
+              <span className="hidden sm:inline">Welcome to Global IT Solutions - Making careers better</span>
+              <span className="sm:hidden">Welcome to Global IT</span>
             </div>
             <div className="hidden md:flex items-center gap-4">
-              <a href="mailto:info@nvnssoftwaresolutions.com" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
+              <a href="mailto:info@globalitsolutions.in" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
                 <Mail className="h-4 w-4" />
-                <span>info@nvnssoftwaresolutions.com</span>
+                <span>info@globalitsolutions.in</span>
               </a>
-              <a href="tel:+916304576965" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
+              <a href="tel:+917799339337" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
                 <Phone className="h-4 w-4" />
-                <span>+91 63045 76965</span>
+                <span>+91 77993 39337</span>
               </a>
             </div>
           </div>
@@ -90,12 +90,12 @@ const Header = () => {
               >
                 <img 
                   src="/nvns.png" 
-                  alt="NVNS Software Solutions Logo" 
+                  alt="Global IT Solutions Logo" 
                   className="h-10 sm:h-12 md:h-14 w-auto object-contain"
                 />
                 <span className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-black bg-gradient-to-r from-primary-600 via-accent-600 to-primary-600 bg-clip-text text-transparent bg-[length:200%_auto] hover:bg-[position:100%_center] transition-all duration-500">
-                  <span className="hidden sm:inline">NVNS Software Solutions</span>
-                  <span className="sm:hidden">NVNS</span>
+                  <span className="hidden sm:inline">Global IT Solutions</span>
+                  <span className="sm:hidden">Global IT</span>
                 </span>
               </a>
             </div>

@@ -306,7 +306,7 @@ const CourseDetail = () => {
               <div className="text-primary-200">Years Experience</div>
             </div>
             <div>
-              <div className="text-4xl font-bold mb-2">100K+</div>
+              <div className="text-4xl font-bold mb-2">10K+</div>
               <div className="text-primary-200">Students Trained</div>
             </div>
             <div>
@@ -328,7 +328,7 @@ const CourseDetail = () => {
             Ready to Land Your {course.title} JOB?
           </h2>
           <p className="text-xl text-primary-100 mb-8">
-            Don't wait! Join 100,000+ trained students and become part of 2,000+ success stories.
+            Don't wait! Join 10,000+ trained students and become part of 2,000+ success stories.
           </p>
           <button 
             onClick={() => setShowEnrollmentForm(true)}

@@ -106,25 +106,25 @@ const Footer = () => {
               <li>
                 <h4 className="text-white font-semibold mb-1">Address</h4>
                 <p className="text-sm">
-                  Manjeera Plaza, Plot No 403<br />
-                  Opposite Aditya Trade Center<br />
-                  Ameerpet, Hyderabad - 500038<br />
+                  D.no.7-1-621/29, 15/3RT<br />
+                  Opp.Union, Near Umesh Chandra Statue Lane<br />
+                  Sanjeeva Reddy Nagar, Hyderabad - 500038<br />
                   Telangana, India
                 </p>
               </li>
               <li>
                 <h4 className="text-white font-semibold mb-1">Email Us</h4>
                 <p className="text-sm">
-                  <a href="mailto:info@nvnssoftwaresolutions.com" className="hover:text-white transition-colors">
-                    info@nvnssoftwaresolutions.com
+                  <a href="mailto:info@globalitsolutions.in" className="hover:text-white transition-colors">
+                    info@globalitsolutions.in
                   </a>
                 </p>
               </li>
               <li>
                 <h4 className="text-white font-semibold mb-1">Call Us</h4>
                 <p className="text-sm">
-                  <a href="tel:+916304576965" className="hover:text-white transition-colors">
-                    +91 63045 76965
+                  <a href="tel:+917799339337" className="hover:text-white transition-colors">
+                    +91 77993 39337
                   </a>
                 </p>
               </li>
@@ -232,7 +232,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-center md:text-left">
-              All Rights Reserved NVNS Software Solutions. Sitemap | FAQs | Cancellation & Refunds | Privacy Policy | Terms & Conditions | Feedback
+              All Rights Reserved Global IT Solutions. Sitemap | FAQs | Cancellation & Refunds | Privacy Policy | Terms & Conditions | Feedback
             </p>
             <p className="text-xs text-gray-500">
               *Note: The certification names and logos are the trademarks of their respective owners.

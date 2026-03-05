@@ -8,6 +8,28 @@ const Placements = () => {
   const [isVisible, setIsVisible] = useState(false)
   const sectionRef = useRef(null)
 
+  // Helper function to get company logo path
+  const getCompanyLogo = (companyName) => {
+    const logoMap = {
+      'TCS': '/logos/tcs.png',
+      'Infosys': '/logos/infosys.png',
+      'Wipro': '/logos/wipro.png',
+      'Accenture': '/logos/accenture.png',
+      'Cognizant': '/logos/cognizant.png',
+      'HCL': '/logos/hcl.png',
+      'Capgemini': '/logos/capgemini.png',
+      'Tech Mahindra': '/logos/tech-mahindra.png',
+      'LTI': '/logos/lti.png',
+      'IBM': '/logos/ibm.png',
+      'Microsoft': '/logos/microsoft.png',
+      'Amazon': '/logos/amazon.png',
+      'Oracle': '/logos/oracle.png',
+      'Dell': '/logos/dell.png',
+      'Cisco': '/logos/cisco.png',
+    }
+    return logoMap[companyName] || null
+  }
+
   useEffect(() => {
     // Set visible immediately for home page display
     setIsVisible(true)
@@ -180,7 +202,20 @@ const Placements = () => {
                 className={`bg-white rounded-xl p-4 shadow-md hover:shadow-lg transition-all duration-300 text-center transform ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                <Building2 className="h-8 w-8 text-primary-600 mx-auto mb-2" />
+                {getCompanyLogo(company.name) ? (
+                  <img 
+                    src={getCompanyLogo(company.name)} 
+                    alt={`${company.name} logo`}
+                    className="h-12 w-auto object-contain mx-auto mb-2 max-w-[100px]"
+                    onError={(e) => {
+                      e.target.style.display = 'none'
+                      e.target.nextSibling.style.display = 'flex'
+                    }}
+                  />
+                ) : null}
+                <div className={`${getCompanyLogo(company.name) ? 'hidden' : 'flex'} items-center justify-center mb-2`}>
+                  <Building2 className="h-8 w-8 text-primary-600 mx-auto" />
+                </div>
                 <h4 className="font-bold text-gray-900 text-sm">{company.name}</h4>
               </div>
             ))}

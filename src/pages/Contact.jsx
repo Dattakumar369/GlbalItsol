@@ -68,35 +68,35 @@ const Contact = () => {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Our Address',
       details: [
-        'Manjeera Plaza, Plot No 403',
-        'Opposite Aditya Trade Center',
-        'Ameerpet, Hyderabad - 500038',
+        'D.no.7-1-621/29, 15/3RT',
+        'Opp.Union, Near Umesh Chandra Statue Lane',
+        'Sanjeeva Reddy Nagar, Hyderabad - 500038',
         'Telangana, India'
       ],
       action: 'View on Map',
       color: 'bg-red-500',
-      onClick: () => window.open('https://maps.google.com/?q=Manjeera+Plaza,+Plot+No+403,+Opposite+Aditya+Trade+Center,+Ameerpet,+Hyderabad', '_blank')
+      onClick: () => window.open('https://maps.google.com/?q=D.no.7-1-621/29,+15/3RT,+Opp.Union,+Near+Umesh+Chandra+Statue+Lane,+Sanjeeva+Reddy+Nagar,+Hyderabad+500038', '_blank')
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone Number',
-      details: ['+91 63045 76965'],
+      details: ['+91 77993 39337'],
       action: 'Call Now',
       color: 'bg-blue-500',
-      onClick: () => window.location.href = 'tel:+916304576965'
+      onClick: () => window.location.href = 'tel:+917799339337'
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Address',
-      details: ['info@nvnssoftwaresolutions.com'],
+      details: ['info@globalitsolutions.in'],
       action: 'Send Email',
       color: 'bg-purple-500',
-      onClick: () => window.location.href = 'mailto:info@nvnssoftwaresolutions.com?subject=Contact Inquiry'
+      onClick: () => window.location.href = 'mailto:info@globalitsolutions.in?subject=Contact Inquiry'
     },
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: 'WhatsApp',
-      details: ['+91 63045 76965'],
+      details: ['+91 77993 39337'],
       action: 'Chat Now',
       color: 'bg-green-500',
       onClick: () => openWhatsApp('Hello! I would like to contact you.')
@@ -179,21 +179,21 @@ const Contact = () => {
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">Find Us on Map</h2>
                 <p className="text-gray-600 mb-6">
-                  Visit us at our training center in Ameerpet, Hyderabad. We're easily accessible and well-connected.
+                  Visit us at our training center in Sanjeeva Reddy Nagar, Hyderabad. We're easily accessible and well-connected.
                 </p>
               </div>
               
               {/* Google Maps Embed */}
               <div className="rounded-xl overflow-hidden shadow-lg h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.1234567890123!2d78.4482!3d17.4486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99dac93a2d0d%3A0x6b422c0325e5b1a1!2sManjeera%20Plaza%2C%20Plot%20No%20403%2C%20Opposite%20Aditya%20Trade%20Center%2C%20Ameerpet%2C%20Hyderabad%2C%20Telangana%20500038!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.1234567890123!2d78.4482!3d17.4486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI2JzU1LjAiTiA3OMKwMjYnNTMuNiJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="NVNS Software Solutions Location - Manjeera Plaza, Ameerpet, Hyderabad"
+                  title="Global IT Solutions Location - Sanjeeva Reddy Nagar, Hyderabad"
                 ></iframe>
               </div>
 
@@ -203,9 +203,9 @@ const Contact = () => {
                   Full Address
                 </h3>
                 <address className="text-gray-700 not-italic leading-relaxed">
-                  Manjeera Plaza, Plot No 403<br />
-                  Opposite Aditya Trade Center<br />
-                  Ameerpet, Hyderabad - 500038<br />
+                  D.no.7-1-621/29, 15/3RT<br />
+                  Opp.Union, Near Umesh Chandra Statue Lane<br />
+                  Sanjeeva Reddy Nagar, Hyderabad - 500038<br />
                   Telangana, India
                 </address>
               </div>
@@ -369,7 +369,7 @@ const Contact = () => {
                   <MapPin className="h-8 w-8 text-primary-600" />
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">Easy Location</h3>
-                <p className="text-gray-600 text-sm">Centrally located in Ameerpet, Hyderabad</p>
+                <p className="text-gray-600 text-sm">Centrally located in Sanjeeva Reddy Nagar, Hyderabad</p>
               </div>
             </div>
           </div>

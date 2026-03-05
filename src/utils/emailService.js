@@ -48,7 +48,7 @@ export const sendEmail = async (templateId, templateParams) => {
  */
 export const sendDemoClassEmail = async (formData) => {
   const templateParams = {
-    to_name: 'NVNS Software Solutions Team',
+    to_name: 'Global IT Solutions Team',
     from_name: formData.name,
     from_email: formData.email,
     phone: formData.phone,
@@ -68,7 +68,7 @@ export const sendDemoClassEmail = async (formData) => {
  */
 export const sendRegistrationEmail = async (formData) => {
   const templateParams = {
-    to_name: 'NVNS Software Solutions Team',
+    to_name: 'Global IT Solutions Team',
     from_name: formData.name,
     from_email: formData.email,
     phone: formData.phone,
@@ -88,7 +88,7 @@ export const sendRegistrationEmail = async (formData) => {
  */
 export const sendCourseInquiryEmail = async (formData) => {
   const templateParams = {
-    to_name: 'NVNS Software Solutions Team',
+    to_name: 'Global IT Solutions Team',
     from_name: formData.name,
     from_email: formData.email,
     phone: formData.phone,
@@ -108,7 +108,7 @@ export const sendCourseInquiryEmail = async (formData) => {
  */
 export const sendEnrollmentEmail = async (formData) => {
   const templateParams = {
-    to_name: 'NVNS Software Solutions Admin',
+    to_name: 'Global IT Solutions Admin',
     from_name: formData.name,
     from_email: formData.email,
     phone: formData.phone,

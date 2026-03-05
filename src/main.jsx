@@ -4,8 +4,8 @@ import App from './App.jsx'
 import './index.css'
 
 // Handle GitHub Pages routing with base path (only for subdomain, not custom domain)
-const isCustomDomain = window.location.hostname === 'nvnssoftwaresolutions.com' || 
-                       window.location.hostname === 'www.nvnssoftwaresolutions.com'
+const isCustomDomain = window.location.hostname === 'globalitsolutions.in' || 
+                       window.location.hostname === 'www.globalitsolutions.in'
 if (!isCustomDomain && window.location.pathname.includes('/?/')) {
   const basePath = import.meta.env.BASE_URL || '/nvns/'
   const path = window.location.pathname.split('/?/')[1]
