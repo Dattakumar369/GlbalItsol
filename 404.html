@@ -15,14 +15,12 @@
       // Note: this 404.html file must be at least 512 bytes for it to work
       // with Internet Explorer (it is currently > 512 bytes)
 
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part and not the real directory.
-      // For example, if your app is served from https://nvnsit.github.io/nvns/,
-      // then set pathSegmentsToKeep to 1, so the route /one/two will be replaced
-      // with /nvns/?/one/two instead of /?/one/two.
-
-      var pathSegmentsToKeep = 1; // Set to 1 for /nvns/ base path
+      // For custom domains (globalitsolutions.in), set pathSegmentsToKeep to 0
+      // For Project Pages with base path (e.g., /nvns/), set to 1
+      // Detect if using custom domain
+      var isCustomDomain = window.location.hostname === 'globalitsolutions.in' || 
+                          window.location.hostname === 'www.globalitsolutions.in';
+      var pathSegmentsToKeep = isCustomDomain ? 0 : 1; // 0 for custom domain, 1 for project pages
 
       var l = window.location;
       l.replace(
