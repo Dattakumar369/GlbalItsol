@@ -23,20 +23,41 @@
       var pathSegmentsToKeep = isCustomDomain ? 0 : 1; // 0 for custom domain, 1 for project pages
 
       var l = window.location;
-      l.replace(
-        l.protocol +
-          '//' +
-          l.hostname +
-          (l.port ? ':' + l.port : '') +
-          l.pathname
-            .split('/')
-            .slice(0, 1 + pathSegmentsToKeep)
-            .join('/') +
-          '/?/' +
-          l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-          (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-          l.hash
-      );
+      var path = l.pathname;
+      
+      // For custom domain, redirect to index.html with the path as query parameter
+      if (isCustomDomain) {
+        // Extract the path (remove leading slash)
+        var pathSegments = path.split('/').filter(function(segment) {
+          return segment.length > 0;
+        });
+        var redirectPath = pathSegments.join('/');
+        
+        // Redirect to index.html with path as query parameter
+        var redirectUrl = l.protocol + '//' + l.hostname + 
+          (l.port ? ':' + l.port : '') + 
+          '/index.html?path=' + encodeURIComponent(path) +
+          (l.search ? '&' + l.search.slice(1) : '') +
+          l.hash;
+        
+        l.replace(redirectUrl);
+      } else {
+        // Original logic for project pages
+        l.replace(
+          l.protocol +
+            '//' +
+            l.hostname +
+            (l.port ? ':' + l.port : '') +
+            l.pathname
+              .split('/')
+              .slice(0, 1 + pathSegmentsToKeep)
+              .join('/') +
+            '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+      }
     </script>
   </head>
   <body></body>

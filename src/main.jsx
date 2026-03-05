@@ -7,8 +7,16 @@ import './index.css'
 const isCustomDomain = window.location.hostname === 'globalitsolutions.in' || 
                        window.location.hostname === 'www.globalitsolutions.in'
 
-// Handle the /?/ pattern from 404.html redirect
-if (window.location.pathname.includes('/?/')) {
+// Handle custom domain redirect from 404.html (uses ?path= query parameter)
+if (isCustomDomain) {
+  const urlParams = new URLSearchParams(window.location.search)
+  const path = urlParams.get('path')
+  if (path && path !== '/') {
+    window.history.replaceState({}, '', path)
+  }
+} 
+// Handle the /?/ pattern from 404.html redirect (for project pages)
+else if (window.location.pathname.includes('/?/')) {
   const path = window.location.pathname.split('/?/')[1]
   const cleanPath = '/' + path.replace(/~and~/g, '&').replace(/^\/+/, '')
   window.history.replaceState({}, '', cleanPath)
