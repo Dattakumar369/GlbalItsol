@@ -13,7 +13,7 @@ export const EMAILJS_CONFIG = {
 // WhatsApp Configuration
 export const WHATSAPP_CONFIG = {
   // Replace with your WhatsApp number (include country code, no + sign)
-  PHONE_NUMBER: '917799339337',
+  PHONE_NUMBER: '918374765587',
   
   // Default message for WhatsApp
   DEFAULT_MESSAGE: 'Hello! I am interested in learning more about your courses.',

@@ -50,3 +50,4 @@ To add a new company logo:
    - `src/components/Placements.jsx`
 3. Add the mapping: `'Company Name': '/logos/company-name.png'`
 
+

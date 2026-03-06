@@ -69,9 +69,9 @@ const Header = () => {
                 <Mail className="h-4 w-4" />
                 <span>info@globalitsolutions.in</span>
               </a>
-              <a href="tel:+917799339337" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
+              <a href="tel:+918374765587" className="flex items-center gap-1 hover:text-primary-200 transition-colors">
                 <Phone className="h-4 w-4" />
-                <span>+91 77993 39337</span>
+                <span>+91 83747 65587</span>
               </a>
             </div>
           </div>

@@ -292,8 +292,8 @@ const Placements = () => {
   return (
     <>
       <SEO 
-        title="Placement Assistance - Global IT Solutions | 100% Placement Rate | 2K+ Students Placed"
-        description="Get 100% placement assistance at Global IT Solutions. 2K+ students placed in top companies like TCS, Infosys, Wipro, Accenture, Microsoft, Amazon. Resume building, interview preparation, job matching services."
+        title="Placement Assistance - Global IT Solutions | 100% Placement Rate | 10K+ Students Placed"
+        description="Get 100% placement assistance at Global IT Solutions. 10K+ students placed in top companies like TCS, Infosys, Wipro, Accenture, Microsoft, Amazon. Resume building, interview preparation, job matching services."
         keywords="placement assistance, job placement, IT job placement, software job placement, placement services Hyderabad, resume building, interview preparation, top IT companies, placement rate"
       />
       <div className="min-h-screen">
@@ -712,9 +712,9 @@ const Placements = () => {
               </button>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center text-primary-100">
-              <a href="tel:+917799339337" className="flex items-center gap-2 hover:text-white transition-colors">
+              <a href="tel:+918374765587" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Phone className="h-5 w-5" />
-                <span>+91 77993 39337</span>
+                <span>+91 83747 65587</span>
               </a>
               <a href="mailto:info@globalitsolutions.in" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />

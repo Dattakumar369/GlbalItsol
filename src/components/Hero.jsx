@@ -15,7 +15,7 @@ const Hero = () => {
   }
 
   const handleTalkToExpert = () => {
-    window.location.href = 'tel:+917799339337'
+    window.location.href = 'tel:+918374765587'
   }
 
   return (
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="text-center mb-8 animate-fade-in">
             <span className="inline-flex items-center gap-2 glass-effect px-8 py-3 rounded-full text-sm font-bold mb-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
               <Award className="h-5 w-5 text-yellow-300" />
-              <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">Trusted by 10k+ Students Since 2019</span>
+              <span className="bg-gradient-to-r from-white via-yellow-100 to-white bg-clip-text text-transparent">Trusted by 10k+ Students Since 2009</span>
             </span>
           </div>
           
@@ -52,8 +52,8 @@ const Hero = () => {
             </h1>
             <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-primary-100 mb-8 md:mb-10 max-w-3xl mx-auto leading-relaxed font-medium px-2">
               <span className="inline-block px-2 sm:px-3 md:px-4 py-1.5 md:py-2 bg-white/10 rounded-lg backdrop-blur-sm mx-0.5 sm:mx-1 text-xs sm:text-sm md:text-base">100+ Programs</span>
-              <span className="inline-block px-2 sm:px-3 md:px-4 py-1.5 md:py-2 bg-white/10 rounded-lg backdrop-blur-sm mx-0.5 sm:mx-1 text-xs sm:text-sm md:text-base">2K+ Placed</span>
-              <span className="inline-block px-2 sm:px-3 md:px-4 py-1.5 md:py-2 bg-white/10 rounded-lg backdrop-blur-sm mx-0.5 sm:mx-1 text-xs sm:text-sm md:text-base">5+ Years</span>
+              <span className="inline-block px-2 sm:px-3 md:px-4 py-1.5 md:py-2 bg-white/10 rounded-lg backdrop-blur-sm mx-0.5 sm:mx-1 text-xs sm:text-sm md:text-base">10K+ Placed</span>
+              <span className="inline-block px-2 sm:px-3 md:px-4 py-1.5 md:py-2 bg-white/10 rounded-lg backdrop-blur-sm mx-0.5 sm:mx-1 text-xs sm:text-sm md:text-base">15+ Years</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 md:mb-12 px-4">
@@ -79,7 +79,7 @@ const Hero = () => {
           {/* Stats Bar */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-12 sm:mt-16 md:mt-20 px-2">
             <div className="glass-effect rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 text-center transform hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-3xl border-2 border-white/30">
-              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">5+</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">15+</div>
               <div className="text-xs sm:text-sm font-semibold text-primary-100 uppercase tracking-wider leading-tight">Years Experience</div>
             </div>
             <div className="glass-effect rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 text-center transform hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-3xl border-2 border-white/30">
@@ -87,7 +87,7 @@ const Hero = () => {
               <div className="text-xs sm:text-sm font-semibold text-primary-100 uppercase tracking-wider leading-tight">Placement Rate</div>
             </div>
             <div className="glass-effect rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 text-center transform hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-3xl border-2 border-white/30">
-              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">2K+</div>
+              <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-2 sm:mb-3 bg-gradient-to-r from-white to-yellow-200 bg-clip-text text-transparent">10K+</div>
               <div className="text-xs sm:text-sm font-semibold text-primary-100 uppercase tracking-wider leading-tight">Students Placed</div>
             </div>
             <div className="glass-effect rounded-xl md:rounded-2xl p-4 sm:p-6 md:p-8 text-center transform hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-3xl border-2 border-white/30">

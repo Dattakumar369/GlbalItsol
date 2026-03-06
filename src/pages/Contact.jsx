@@ -81,10 +81,10 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone Number',
-      details: ['+91 77993 39337'],
+      details: ['+91 83747 65587'],
       action: 'Call Now',
       color: 'bg-blue-500',
-      onClick: () => window.location.href = 'tel:+917799339337'
+      onClick: () => window.location.href = 'tel:+918374765587'
     },
     {
       icon: <Mail className="h-6 w-6" />,
@@ -97,7 +97,7 @@ const Contact = () => {
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: 'WhatsApp',
-      details: ['+91 77993 39337'],
+      details: ['+91 83747 65587'],
       action: 'Chat Now',
       color: 'bg-green-500',
       onClick: () => openWhatsApp('Hello! I would like to contact you.')
@@ -119,7 +119,7 @@ const Contact = () => {
     <>
       <SEO 
         title="Contact Us - Global IT Solutions | IT Training Institute Hyderabad | Get Free Demo"
-        description="Contact Global IT Solutions for IT training courses. Located in Sanjeeva Reddy Nagar, Hyderabad. Call +91 77993 39337 or email info@globalitsolutions.in. Get free demo class and career guidance."
+        description="Contact Global IT Solutions for IT training courses. Located in Sanjeeva Reddy Nagar, Hyderabad. Call +91 83747 65587 or email info@globalitsolutions.in. Get free demo class and career guidance."
         keywords="contact Global IT Solutions, IT training contact, software training Hyderabad, free demo class, career guidance, IT courses inquiry, training center Hyderabad"
       />
       <div className="min-h-screen">

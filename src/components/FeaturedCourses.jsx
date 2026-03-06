@@ -54,8 +54,8 @@ const FeaturedCourses = () => {
       badge: 'Most Popular',
       category: 'fullstack',
       batchInfo: {
-        startDate: '2 Mar 2026',
-        trainer: 'Mr. Kishan B'
+        startDate: '10 Mar 2026',
+        trainer: 'Mr. Subbareddy'
       }
     },
     {
@@ -91,7 +91,7 @@ const FeaturedCourses = () => {
       category: 'fullstack',
       batchInfo: {
         startDate: '26 Feb 2026',
-        trainer: 'Mr. K V Rao'
+        trainer: 'Mr. Nageswara Rao'
       }
     },
     {
@@ -109,7 +109,7 @@ const FeaturedCourses = () => {
       category: 'testing',
       batchInfo: {
         startDate: '2 Mar 2026',
-        trainer: 'Mr. Vamshi Mohan'
+        trainer: 'Ms. Shradda '
       }
     },
     {
@@ -145,7 +145,7 @@ const FeaturedCourses = () => {
       category: 'cloud',
       batchInfo: {
         startDate: '27 Feb 2026',
-        trainer: 'Mr. Riyaz'
+        trainer: 'Mr. vinay'
       }
     },
     {
@@ -163,7 +163,7 @@ const FeaturedCourses = () => {
       category: 'cloud',
       batchInfo: {
         startDate: '10 Mar 2026',
-        trainer: 'Expert Trainer'
+        trainer: 'Mr. Sandeep'
       }
     }
   ]

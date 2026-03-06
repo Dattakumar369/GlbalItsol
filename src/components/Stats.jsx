@@ -5,9 +5,9 @@ const Stats = () => {
   const sectionRef = useRef(null)
 
   const stats = [
-    { number: '5+', label: 'Years of Excellence' },
+    { number: '15+', label: 'Years of Excellence' },
     { number: '100%', label: 'Placement Rate' },
-    { number: '2K+', label: 'Students Placed' },
+    { number: '10K+', label: 'Students Placed' },
     { number: '10K+', label: 'Trained Students' },
   ]
 

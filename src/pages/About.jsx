@@ -10,9 +10,9 @@ const About = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }, [])
   const stats = [
-    { icon: <Award className="h-8 w-8" />, number: '5+', label: 'Years of Excellence' },
+    { icon: <Award className="h-8 w-8" />, number: '15+', label: 'Years of Excellence' },
     { icon: <Users className="h-8 w-8" />, number: '10K+', label: 'Students Trained' },
-    { icon: <Briefcase className="h-8 w-8" />, number: '2K+', label: 'Students Placed' },
+    { icon: <Briefcase className="h-8 w-8" />, number: '10K+', label: 'Students Placed' },
     { icon: <Target className="h-8 w-8" />, number: '100%', label: 'Placement Rate' },
   ]
 
@@ -40,11 +40,11 @@ const About = () => {
   ]
 
   const milestones = [
-    { year: '2019', title: 'Founded', description: 'Started with a vision to bridge the gap between education and industry' },
+    { year: '2009', title: 'Founded', description: 'Started with a vision to bridge the gap between education and industry' },
     { year: '2020', title: 'First 1K Students', description: 'Reached milestone of training 1,000 students' },
     { year: '2021', title: '100% Placement', description: 'Achieved 100% placement rate for our students' },
     { year: '2022', title: '5K+ Trained', description: 'Celebrated training over 5,000 students' },
-    { year: '2024', title: '2K+ Placed', description: 'Successfully placed over 2,000 students in top companies' },
+    { year: '2024', title: '10K+ Placed', description: 'Successfully placed over 10,000 students in top companies' },
   ]
 
   return (
@@ -52,7 +52,7 @@ const About = () => {
     <>
       <SEO 
         title="About Us - Global IT Solutions | IT Training Institute Hyderabad | 10K+ Students Trained"
-        description="Learn about Global IT Solutions - a leading IT training institute in Hyderabad. 5+ years of excellence, 10K+ students trained, 2K+ placed, 100% placement rate. Industry-ready training programs."
+        description="Learn about Global IT Solutions - a leading IT training institute in Hyderabad. 15+ years of excellence, 10K+ students trained, 10K+ placed, 100% placement rate. Industry-ready training programs."
         keywords="about Global IT Solutions, IT training institute Hyderabad, software training center, tech education, IT courses, placement assistance, student success stories"
       />
       <div className="min-h-screen bg-gray-50">
@@ -66,7 +66,7 @@ const About = () => {
               About Global IT Solutions
             </h1>
             <p className="text-xl text-primary-100 leading-relaxed">
-              Transforming careers through industry-ready training programs. Empowering students to achieve their tech dreams since 2019.
+              Transforming careers through industry-ready training programs. Empowering students to achieve their tech dreams since 2009.
             </p>
           </div>
         </div>

@@ -12,54 +12,44 @@ const Services = () => {
 
   const services = [
     {
-      id: 'classroom',
+      id: 'hire-train-deploy',
       icon: <GraduationCap className="h-10 w-10" />,
-      title: 'Classroom Training',
-      description: 'In-person immersive learning in our centers with hands-on labs and direct mentor interaction.',
-      features: ['Hands-on Labs', 'Direct Mentor Access', 'Peer Learning', 'Industry Projects'],
+      title: 'Hire-Train-Deploy 2025 & 2026 Batches',
+      description: 'Comprehensive training programs for 2025 and 2026 batches with guaranteed placement opportunities.',
+      features: ['2025 & 2026 Batches', 'Guaranteed Placement', 'Industry Training', 'Job Ready Skills'],
       cta: 'Learn More'
     },
     {
-      id: 'online',
-      icon: <Monitor className="h-10 w-10" />,
-      title: 'Online Training',
-      description: 'Learn from anywhere, anytime with live interactive sessions, recorded content, and 24/7 support.',
-      features: ['Live Sessions', 'Recorded Content', '24/7 Support', 'Flexible Schedule'],
-      cta: 'Learn More'
-    },
-    {
-      id: 'corporate',
-      icon: <Building2 className="h-10 w-10" />,
-      title: 'Corporate Training',
-      description: 'Customized enterprise solutions for teams. Upskill your workforce with tailored programs.',
-      features: ['Custom Curriculum', 'On-site Training', 'Team Assessments', 'Progress Reports'],
-      cta: 'Learn More'
-    },
-    {
-      id: 'internship',
+      id: 'internship-career',
       icon: <Briefcase className="h-10 w-10" />,
-      title: 'Internship Programs',
-      description: '3, 6, 9, or 12-month hands-on project experience with real-world industry exposure.',
-      features: ['Real Projects', 'Industry Exposure', 'Mentorship', 'Certificate'],
+      title: 'Internship Career Program',
+      description: 'Hands-on internship programs designed to kickstart your career with real-world experience.',
+      features: ['Real Projects', 'Industry Exposure', 'Career Guidance', 'Certificate'],
       cta: 'Learn More'
     },
     {
-      id: 'skill-to-job',
+      id: 'pap-career-gap',
       icon: <Target className="h-10 w-10" />,
-      title: 'Skill-to-Job',
-      description: 'Already trained elsewhere? Upskill with us and get placed in top companies.',
-      features: ['Upskill Programs', 'Placement Support', 'Interview Prep', 'Job Guarantee'],
+      title: 'PAP Career Gap',
+      description: 'Specialized programs to bridge career gaps and get you back on track with industry-relevant skills.',
+      features: ['Career Gap Solutions', 'Skill Enhancement', 'Placement Support', 'Flexible Learning'],
       cta: 'Learn More'
     },
     {
-      id: 'career-guidance',
+      id: 'outsourcing',
+      icon: <Building2 className="h-10 w-10" />,
+      title: 'Out Sourcing',
+      description: 'Professional outsourcing services for businesses looking to scale their operations efficiently.',
+      features: ['IT Services', 'Project Outsourcing', 'Team Augmentation', 'Cost Effective'],
+      cta: 'Learn More'
+    },
+    {
+      id: 'it-nonit-jobs',
       icon: <Users className="h-10 w-10" />,
-      title: 'Career Guidance',
-      description: '1-on-1 mentorship, resume building, interview prep, and career path planning.',
-      features: ['1-on-1 Mentorship', 'Resume Building', 'Interview Prep', 'Career Planning'],
-      cta: 'Learn More',
-      isPage: true,
-      pagePath: '/career-guidance'
+      title: 'IT & Non-IT Jobs',
+      description: 'Placement assistance for both IT and Non-IT positions across various industries and domains.',
+      features: ['IT Jobs', 'Non-IT Jobs', 'Multiple Domains', 'Placement Support'],
+      cta: 'Learn More'
     }
   ]
 

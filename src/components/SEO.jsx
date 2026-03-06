@@ -97,7 +97,7 @@ const SEO = ({
       },
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+91-77993-39337',
+        telephone: '+91-83747-65587',
         contactType: 'Customer Service',
         areaServed: 'IN',
         availableLanguage: 'English'
@@ -127,4 +127,5 @@ const SEO = ({
 }
 
 export default SEO
+
 
