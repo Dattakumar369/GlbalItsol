@@ -55,25 +55,9 @@ const FeaturedCourses = () => {
       category: 'fullstack',
       batchInfo: {
         startDate: '10 Mar 2026',
-        trainer: 'Mr. Subbareddy'
-      }
-    },
-    {
-      slug: 'data-science',
-      title: 'Full Stack Data Science & AI',
-      subtitle: 'Complete Data Science Program',
-      duration: '4 Months',
-      students: '3,000+',
-      rating: 5.0,
-      reviews: 2500,
-      description: 'Master data science with Python, machine learning, statistical analysis, and data visualization.',
-      skills: ['Python', 'Machine Learning', 'Statistics', 'Data Visualization'],
-      price: '₹45,000',
-      badge: 'High Demand',
-      category: 'data',
-      batchInfo: {
-        startDate: '2 Mar 2026',
-        trainer: 'Mr. Prakash Senapathi'
+        trainer: 'Mr. Subbareddy',
+        trainerExperience: '12+ Years',
+        trainerCompany: 'Cognizant, Capgemini'
       }
     },
     {
@@ -91,43 +75,49 @@ const FeaturedCourses = () => {
       category: 'fullstack',
       batchInfo: {
         startDate: '26 Feb 2026',
-        trainer: 'Mr. Nageswara Rao'
+        trainer: 'Mr. Nageswara Rao',
+        trainerExperience: '15+ Years',
+        trainerCompany: 'Wipro, Accenture'
       }
     },
     {
-      slug: 'ai-testing',
-      title: 'AI Testing',
-      subtitle: 'Test AI Systems Effectively',
+      slug: 'automation-testing',
+      title: 'Automation Testing',
+      subtitle: 'Master Test Automation',
       duration: '5 Months',
       students: '3,000+',
       rating: 4.9,
       reviews: 2500,
-      description: 'Learn to evaluate AI models, identify bugs, and maintain the ethical running of AI systems',
-      skills: ['AI Testing', 'Model Evaluation', 'Bug Detection', 'Ethical AI'],
+      description: 'Learn Selenium, Cypress, TestNG, and automation frameworks. Master end-to-end testing and CI/CD integration.',
+      skills: ['Selenium', 'Cypress', 'TestNG', 'API Testing', 'CI/CD'],
       price: '₹40,000',
       badge: 'New',
       category: 'testing',
       batchInfo: {
         startDate: '2 Mar 2026',
-        trainer: 'Ms. Shradda '
+        trainer: 'Ms. Shradda',
+        trainerExperience: '10+ Years',
+        trainerCompany: 'Cognizant, Capgemini'
       }
     },
     {
-      slug: 'gen-ai-development',
-      title: 'Generative AI & Agentic AI',
-      subtitle: 'with Python',
-      duration: '3 Months',
-      students: '1,200+',
-      rating: 4.6,
-      reviews: 1400,
-      description: 'Deep dive into Neural Networks, NLP, Computer Vision, LLMs, and Generative AI technologies.',
-      skills: ['Deep Learning', 'NLP', 'LLMs', 'Computer Vision'],
-      price: '₹60,000',
-      badge: 'Cutting Edge',
-      category: 'ai',
+      slug: 'etl-testing',
+      title: 'ETL Testing',
+      subtitle: 'Data Warehouse Testing',
+      duration: '4 Months',
+      students: '1,500+',
+      rating: 4.8,
+      reviews: 800,
+      description: 'Master ETL testing, data validation, data quality checks, and data warehouse testing methodologies.',
+      skills: ['ETL Testing', 'Data Validation', 'SQL', 'Data Quality', 'Data Warehouse'],
+      price: '₹35,000',
+      badge: 'High Demand',
+      category: 'testing',
       batchInfo: {
-        startDate: '27 Feb 2026',
-        trainer: 'Mr. Shiva Rama Krishna'
+        startDate: '15 Mar 2026',
+        trainer: 'Mr. Ramana',
+        trainerExperience: '11+ Years',
+        trainerCompany: 'HCL, Tech Mahindra'
       }
     },
     {
@@ -145,7 +135,9 @@ const FeaturedCourses = () => {
       category: 'cloud',
       batchInfo: {
         startDate: '27 Feb 2026',
-        trainer: 'Mr. vinay'
+        trainer: 'Mr. Vinay',
+        trainerExperience: '13+ Years',
+        trainerCompany: 'Microsoft, Amazon'
       }
     },
     {
@@ -163,7 +155,9 @@ const FeaturedCourses = () => {
       category: 'cloud',
       batchInfo: {
         startDate: '10 Mar 2026',
-        trainer: 'Mr. Sandeep'
+        trainer: 'Mr. Sandeep',
+        trainerExperience: '9+ Years',
+        trainerCompany: 'IBM, Dell'
       }
     }
   ]

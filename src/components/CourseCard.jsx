@@ -51,16 +51,32 @@ const CourseCard = ({ course, showBatchInfo = false }) => {
         {/* Batch Info */}
         {showBatchInfo && course.batchInfo && (
           <div className="bg-gradient-to-r from-primary-50 via-accent-50 to-primary-50 rounded-xl p-4 mb-5 border-2 border-primary-100 shadow-md group-hover:shadow-lg group-hover:border-primary-300 transition-all duration-300">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-sm">
-              <div className="flex items-center gap-2 text-gray-700 flex-1 min-w-0">
-                <div className="bg-primary-600 p-1.5 rounded-lg flex-shrink-0">
-                  <Calendar className="h-4 w-4 text-white" />
+            <div className="space-y-3">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-sm">
+                <div className="flex items-center gap-2 text-gray-700 flex-1 min-w-0">
+                  <div className="bg-primary-600 p-1.5 rounded-lg flex-shrink-0">
+                    <Calendar className="h-4 w-4 text-white" />
+                  </div>
+                  <span className="font-bold truncate">Start: {course.batchInfo.startDate}</span>
                 </div>
-                <span className="font-bold truncate">Start: {course.batchInfo.startDate}</span>
               </div>
               {course.batchInfo.trainer && (
-                <div className="text-gray-600 font-semibold text-xs sm:text-sm truncate">
-                  by: {course.batchInfo.trainer}
+                <div className="space-y-1.5">
+                  <div className="text-gray-800 font-semibold text-sm">
+                    Trainer: {course.batchInfo.trainer}
+                  </div>
+                  {course.batchInfo.trainerExperience && (
+                    <div className="text-gray-600 text-xs flex items-center gap-1">
+                      <span className="font-medium">Experience:</span>
+                      <span>{course.batchInfo.trainerExperience}</span>
+                    </div>
+                  )}
+                  {course.batchInfo.trainerCompany && (
+                    <div className="text-gray-600 text-xs flex items-center gap-1">
+                      <span className="font-medium">Company:</span>
+                      <span>{course.batchInfo.trainerCompany}</span>
+                    </div>
+                  )}
                 </div>
               )}
             </div>

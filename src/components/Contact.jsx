@@ -164,7 +164,8 @@ const Contact = () => {
 
   const courses = [
     'Choose a course',
-    'AI Testing',
+    'Automation Testing',
+    'ETL Testing',
     'AWS Data Engineer',
     'Cloud Data Eng - Azure Training',
     'Cloud Data Eng - GCP',

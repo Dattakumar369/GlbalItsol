@@ -22,7 +22,8 @@ const Header = () => {
     { name: 'Gen AI Development', slug: 'gen-ai-development' },
     { name: 'Cyber Security', slug: 'cyber-security' },
     { name: 'DevOps & Cloud Engineering', slug: 'devops-cloud-engineering' },
-    { name: 'AI Testing', slug: 'ai-testing' },
+    { name: 'Automation Testing', slug: 'automation-testing' },
+    { name: 'ETL Testing', slug: 'etl-testing' },
     { name: 'Quantum Computing', slug: 'quantum-computing' },
   ]
 

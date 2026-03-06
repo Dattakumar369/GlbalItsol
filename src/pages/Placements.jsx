@@ -249,7 +249,7 @@ const Placements = () => {
     },
     {
       name: 'Divya Patel',
-      course: 'AI Testing',
+      course: 'Automation Testing',
       company: 'HCL',
       salary: '7 LPA',
       location: 'Noida',
