@@ -2,7 +2,6 @@ import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Stats from '../components/Stats'
-import TrendingCourses from '../components/TrendingCourses'
 import FeaturedCourses from '../components/FeaturedCourses'
 import LearningJourney from '../components/LearningJourney'
 import Services from '../components/Services'
@@ -26,7 +25,6 @@ function Home() {
         <Hero />
         <Stats />
         <section id="courses">
-          <TrendingCourses />
           <FeaturedCourses />
         </section>
         <LearningJourney />

@@ -41,9 +41,10 @@ const About = () => {
 
   const milestones = [
     { year: '2009', title: 'Founded', description: 'Started with a vision to bridge the gap between education and industry' },
-    { year: '2020', title: 'First 1K Students', description: 'Reached milestone of training 1,000 students' },
-    { year: '2021', title: '100% Placement', description: 'Achieved 100% placement rate for our students' },
-    { year: '2022', title: '5K+ Trained', description: 'Celebrated training over 5,000 students' },
+    { year: '2012', title: 'First 1K Students', description: 'Reached milestone of training 1,000 students' },
+    { year: '2015', title: '100% Placement', description: 'Achieved 100% placement rate for our students' },
+    { year: '2018', title: '5K+ Trained', description: 'Celebrated training over 5,000 students' },
+    { year: '2021', title: '10K+ Trained', description: 'Reached milestone of training over 10,000 students' },
     { year: '2024', title: '10K+ Placed', description: 'Successfully placed over 10,000 students in top companies' },
   ]
 
