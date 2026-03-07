@@ -51,3 +51,4 @@ To add a new company logo:
 3. Add the mapping: `'Company Name': '/logos/company-name.png'`
 
 
+

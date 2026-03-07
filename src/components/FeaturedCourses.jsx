@@ -50,7 +50,7 @@ const FeaturedCourses = () => {
       reviews: 500,
       description: 'Master Java, Spring Boot, Microservices, React, and AWS deployment. Industry-ready skills with real projects.',
       skills: ['Spring Boot', 'Microservices', 'AWS', 'React', 'Java'],
-      price: '₹35,000',
+      price: '₹15,000',
       badge: 'Most Popular',
       category: 'fullstack',
       batchInfo: {
@@ -70,7 +70,7 @@ const FeaturedCourses = () => {
       reviews: 800,
       description: 'Master full-stack development with Python, Django, React, and cloud deployment.',
       skills: ['Python', 'Django', 'React', 'PostgreSQL', 'AWS'],
-      price: '₹35,000',
+      price: '₹15,000',
       badge: 'Trending',
       category: 'fullstack',
       batchInfo: {
@@ -90,7 +90,7 @@ const FeaturedCourses = () => {
       reviews: 2500,
       description: 'Learn Selenium, Cypress, TestNG, and automation frameworks. Master end-to-end testing and CI/CD integration.',
       skills: ['Selenium', 'Cypress', 'TestNG', 'API Testing', 'CI/CD'],
-      price: '₹40,000',
+      price: '₹20,000',
       badge: 'New',
       category: 'testing',
       batchInfo: {
@@ -110,7 +110,7 @@ const FeaturedCourses = () => {
       reviews: 800,
       description: 'Master ETL testing, data validation, data quality checks, and data warehouse testing methodologies.',
       skills: ['ETL Testing', 'Data Validation', 'SQL', 'Data Quality', 'Data Warehouse'],
-      price: '₹35,000',
+      price: '₹15,000',
       badge: 'High Demand',
       category: 'testing',
       batchInfo: {
@@ -130,7 +130,7 @@ const FeaturedCourses = () => {
       reviews: 1400,
       description: 'Master CI/CD pipelines, Docker, Kubernetes, AWS, Azure, and infrastructure automation.',
       skills: ['Docker', 'Kubernetes', 'AWS', 'Azure', 'Terraform'],
-      price: '₹60,000',
+      price: '₹20,000',
       badge: 'High Demand',
       category: 'cloud',
       batchInfo: {
@@ -150,7 +150,7 @@ const FeaturedCourses = () => {
       reviews: 600,
       description: 'Learn to protect systems, networks, and data from cyber threats. Master ethical hacking and security analysis.',
       skills: ['Ethical Hacking', 'Network Security', 'Penetration Testing'],
-      price: '₹40,000',
+      price: '₹20,000',
       badge: 'Fast Growing',
       category: 'cloud',
       batchInfo: {
