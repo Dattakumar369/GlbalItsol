@@ -979,6 +979,367 @@ export const coursesData = {
       'Stable internet connection',
       'Commitment to dedicate 3-4 hours daily'
     ]
+  },
+  'automation-testing': {
+    id: 'automation-testing',
+    title: 'Automation Testing',
+    subtitle: 'Master Test Automation',
+    description: 'Learn Selenium, Cypress, TestNG, and automation frameworks. Master end-to-end testing and CI/CD integration.',
+    duration: '5 Months',
+    nextBatch: '2nd March 2026',
+    sessionTime: '4:00 PM to 5:00 PM',
+    rating: 4.9,
+    reviews: 2500,
+    students: '3,000+',
+    price: '₹20,000',
+    badge: 'New',
+    skills: ['Selenium', 'Cypress', 'TestNG', 'API Testing', 'CI/CD'],
+    features: [
+      'Live Projects',
+      'Expert Trainers',
+      '100% Placement Support',
+      'Industry Certification',
+      'LMS Access',
+      'Mock Interviews',
+      'Resume Building',
+      'Soft Skills Training'
+    ],
+    additionalBenefits: [
+      'Pay After Placement Options Available',
+      'Flexible Payment Plans',
+      '6-12 Months LMS Access',
+      'Doubt Clearing Sessions',
+      '24/7 Learning Support',
+      'Mega Job Drives'
+    ],
+    curriculum: [
+      {
+        title: 'Manual Testing Fundamentals',
+        topics: [
+          'Software Testing Life Cycle',
+          'Test Case Design',
+          'Bug Reporting',
+          'Test Documentation',
+          'Agile Testing'
+        ]
+      },
+      {
+        title: 'Selenium WebDriver',
+        topics: [
+          'Selenium Basics',
+          'WebDriver API',
+          'Locators & Elements',
+          'Waits & Synchronization',
+          'Page Object Model'
+        ]
+      },
+      {
+        title: 'TestNG Framework',
+        topics: [
+          'TestNG Annotations',
+          'Test Execution',
+          'Data Providers',
+          'Parallel Execution',
+          'Reports & Logging'
+        ]
+      },
+      {
+        title: 'Cypress Testing',
+        topics: [
+          'Cypress Setup',
+          'Element Selection',
+          'API Testing',
+          'End-to-End Testing',
+          'Best Practices'
+        ]
+      },
+      {
+        title: 'API Testing',
+        topics: [
+          'REST API Testing',
+          'Postman',
+          'REST Assured',
+          'JSON/XML Handling',
+          'API Automation'
+        ]
+      },
+      {
+        title: 'CI/CD Integration',
+        topics: [
+          'Jenkins Integration',
+          'GitHub Actions',
+          'Test Automation in DevOps',
+          'Continuous Testing',
+          'Reporting Tools'
+        ]
+      }
+    ],
+    learningPaths: [
+      {
+        name: 'Exclusive Training',
+        duration: '1–2 hrs/day, 5 Months',
+        description: 'Best for: Job seekers aiming for Automation Testing roles',
+        features: [
+          'Any graduate',
+          'Training by realtime experts',
+          'Live project',
+          'Resume preparation',
+          'Course completion certificate',
+          'Online / Offline mode',
+          'Backup videos for 6 months'
+        ],
+        price: '₹20,000'
+      }
+    ],
+    prerequisites: [
+      'Basic understanding of software testing',
+      'No prior automation experience required',
+      'Graduation in any stream',
+      'Laptop/Desktop with minimum 4GB RAM',
+      'Stable internet connection',
+      'Commitment to dedicate 2-3 hours daily'
+    ]
+  },
+  'etl-testing': {
+    id: 'etl-testing',
+    title: 'ETL Testing',
+    subtitle: 'Data Warehouse Testing',
+    description: 'Master ETL testing, data validation, data quality checks, and data warehouse testing methodologies.',
+    duration: '4 Months',
+    nextBatch: '15th March 2026',
+    sessionTime: '3:00 PM to 4:00 PM',
+    rating: 4.8,
+    reviews: 800,
+    students: '1,500+',
+    price: '₹15,000',
+    badge: 'High Demand',
+    skills: ['ETL Testing', 'Data Validation', 'SQL', 'Data Quality', 'Data Warehouse'],
+    features: [
+      'Live Projects',
+      'Expert Trainers',
+      '100% Placement Support',
+      'Industry Certification',
+      'LMS Access',
+      'Mock Interviews',
+      'Resume Building',
+      'Soft Skills Training'
+    ],
+    additionalBenefits: [
+      'Pay After Placement Options Available',
+      'Flexible Payment Plans',
+      '6-12 Months LMS Access',
+      'Doubt Clearing Sessions',
+      '24/7 Learning Support',
+      'Mega Job Drives'
+    ],
+    curriculum: [
+      {
+        title: 'ETL Fundamentals',
+        topics: [
+          'ETL Concepts',
+          'Data Warehouse Architecture',
+          'ETL Process Flow',
+          'Data Integration',
+          'ETL Tools Overview'
+        ]
+      },
+      {
+        title: 'SQL for ETL Testing',
+        topics: [
+          'Advanced SQL Queries',
+          'Stored Procedures',
+          'Functions & Triggers',
+          'Data Transformation',
+          'Performance Tuning'
+        ]
+      },
+      {
+        title: 'Data Validation',
+        topics: [
+          'Source Data Validation',
+          'Target Data Validation',
+          'Data Completeness',
+          'Data Accuracy',
+          'Data Consistency'
+        ]
+      },
+      {
+        title: 'Data Quality Testing',
+        topics: [
+          'Data Quality Dimensions',
+          'Data Profiling',
+          'Data Cleansing',
+          'Duplicate Detection',
+          'Data Quality Metrics'
+        ]
+      },
+      {
+        title: 'ETL Testing Tools',
+        topics: [
+          'Informatica',
+          'Talend',
+          'SSIS',
+          'DataStage',
+          'Testing Frameworks'
+        ]
+      },
+      {
+        title: 'Data Warehouse Testing',
+        topics: [
+          'Dimensional Modeling',
+          'Fact & Dimension Tables',
+          'Star & Snowflake Schema',
+          'Data Mart Testing',
+          'BI Testing'
+        ]
+      }
+    ],
+    learningPaths: [
+      {
+        name: 'Exclusive Training',
+        duration: '1–2 hrs/day, 4 Months',
+        description: 'Best for: Job seekers aiming for ETL Testing roles',
+        features: [
+          'Any graduate',
+          'Training by realtime experts',
+          'Live project',
+          'Resume preparation',
+          'Course completion certificate',
+          'Online / Offline mode',
+          'Backup videos for 6 months'
+        ],
+        price: '₹15,000'
+      }
+    ],
+    prerequisites: [
+      'Basic understanding of databases',
+      'SQL knowledge preferred',
+      'Graduation in any stream',
+      'Laptop/Desktop with minimum 4GB RAM',
+      'Stable internet connection',
+      'Commitment to dedicate 2-3 hours daily'
+    ]
+  },
+  'snowflake-data-engineering': {
+    id: 'snowflake-data-engineering',
+    title: 'Snowflake Data Engineering',
+    subtitle: 'Master Snowflake Platform',
+    description: 'Master Snowflake platform, data pipelines, and analytics. Learn cloud data warehousing, data engineering, and modern data architecture.',
+    duration: '4 Months',
+    nextBatch: '20th March 2026',
+    sessionTime: '5:00 PM to 6:00 PM',
+    rating: 4.9,
+    reviews: 1200,
+    students: '2,000+',
+    price: '₹25,000',
+    badge: 'High Demand',
+    skills: ['Snowflake', 'Data Pipelines', 'SQL', 'Data Warehousing', 'Cloud Analytics'],
+    features: [
+      'Live Projects',
+      'Expert Trainers',
+      '100% Placement Support',
+      'Industry Certification',
+      'LMS Access',
+      'Mock Interviews',
+      'Resume Building',
+      'Soft Skills Training'
+    ],
+    additionalBenefits: [
+      'Pay After Placement Options Available',
+      'Flexible Payment Plans',
+      '6-12 Months LMS Access',
+      'Doubt Clearing Sessions',
+      '24/7 Learning Support',
+      'Mega Job Drives'
+    ],
+    curriculum: [
+      {
+        title: 'Snowflake Fundamentals',
+        topics: [
+          'Snowflake Architecture',
+          'Virtual Warehouses',
+          'Database & Schema',
+          'Tables & Views',
+          'Data Loading'
+        ]
+      },
+      {
+        title: 'Snowflake SQL',
+        topics: [
+          'Advanced SQL in Snowflake',
+          'Window Functions',
+          'Stored Procedures',
+          'User-Defined Functions',
+          'Query Optimization'
+        ]
+      },
+      {
+        title: 'Data Pipelines',
+        topics: [
+          'ETL/ELT in Snowflake',
+          'Snowpipe',
+          'Data Transformation',
+          'Streams & Tasks',
+          'Data Integration'
+        ]
+      },
+      {
+        title: 'Data Warehousing',
+        topics: [
+          'Dimensional Modeling',
+          'Star Schema',
+          'Snowflake Schema',
+          'Data Marts',
+          'Data Lake Integration'
+        ]
+      },
+      {
+        title: 'Performance & Optimization',
+        topics: [
+          'Query Performance',
+          'Clustering',
+          'Partitioning',
+          'Caching Strategies',
+          'Cost Optimization'
+        ]
+      },
+      {
+        title: 'Advanced Features',
+        topics: [
+          'Time Travel',
+          'Data Sharing',
+          'Security & Access Control',
+          'Data Governance',
+          'Snowflake Marketplace'
+        ]
+      }
+    ],
+    learningPaths: [
+      {
+        name: 'Exclusive Training',
+        duration: '1–2 hrs/day, 4 Months',
+        description: 'Best for: Job seekers aiming for Snowflake Data Engineering roles',
+        features: [
+          'Any graduate',
+          'Training by realtime experts',
+          'Live project',
+          'Resume preparation',
+          'Course completion certificate',
+          'Online / Offline mode',
+          'Backup videos for 6 months'
+        ],
+        price: '₹25,000'
+      }
+    ],
+    prerequisites: [
+      'Basic understanding of databases',
+      'SQL knowledge preferred',
+      'Understanding of data warehousing concepts',
+      'Graduation in any stream',
+      'Laptop/Desktop with minimum 4GB RAM',
+      'Stable internet connection',
+      'Commitment to dedicate 2-3 hours daily'
+    ]
   }
 }
 

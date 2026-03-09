@@ -16,25 +16,32 @@ const Header = () => {
   }
 
   const coursesMenu = [
-    { name: 'Full Stack Python', slug: 'fullstack-python' },
-    { name: 'Full Stack Java', slug: 'fullstack-java' },
-    { name: 'Data Science', slug: 'data-science' },
-    { name: 'Gen AI Development', slug: 'gen-ai-development' },
-    { name: 'Cyber Security', slug: 'cyber-security' },
-    { name: 'DevOps & Cloud Engineering', slug: 'devops-cloud-engineering' },
-    { name: 'Automation Testing', slug: 'automation-testing' },
+    { name: 'Java Development', slug: 'fullstack-java' },
+    { name: 'Software Testing', slug: 'automation-testing' },
+    { name: 'DevOps with Multi-Cloud', slug: 'devops-cloud-engineering' },
     { name: 'ETL Testing', slug: 'etl-testing' },
-    { name: 'Quantum Computing', slug: 'quantum-computing' },
+    { name: 'Snowflake Data Engineering', slug: 'snowflake-data-engineering' },
   ]
 
   const servicesMenu = [
-    { name: 'Classroom Training', href: '#services' },
-    { name: 'Online Training', href: '#services' },
-    { name: 'Corporate Training', href: '#services' },
-    { name: 'Internship Programs', href: '#services' },
+    { name: 'Intensive Career Program', href: '/intensive-career-program', isPage: true },
+    { name: 'Industry-Focused Training', href: '/intensive-career-program', isPage: true },
+    { name: 'Resume Preparation', href: '/intensive-career-program', isPage: true },
+    { name: 'Interview Support', href: '/intensive-career-program', isPage: true },
+    { name: 'Payroll Management', href: '/intensive-career-program', isPage: true },
+    { name: 'Work Support (After Placement)', href: '/intensive-career-program', isPage: true },
     { name: 'Placement Assistance', href: '/placements', isPage: true },
     { name: 'Career Guidance', href: '/career-guidance', isPage: true },
   ]
+
+  const handleServiceClick = (service) => {
+    if (service.isPage) {
+      navigate(service.href)
+      setIsMenuOpen(false)
+    } else {
+      scrollToSection(service.href.replace('#', ''))
+    }
+  }
 
   const handleCourseClick = (slug) => {
     navigate(`/course/${slug}`)
@@ -170,7 +177,7 @@ const Header = () => {
                   Services
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </button>
-                <div className="absolute top-full left-0 mt-2 w-56 bg-white rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100 z-50">
+                <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100 z-50">
                   <div className="py-2">
                     {servicesMenu.map((service, index) => (
                       <a
@@ -178,11 +185,7 @@ const Header = () => {
                         href={service.href || '#'}
                         onClick={(e) => {
                           e.preventDefault()
-                          if (service.isPage) {
-                            navigate(service.href)
-                          } else {
-                            scrollToSection(service.href.replace('#', ''))
-                          }
+                          handleServiceClick(service)
                         }}
                         className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors"
                       >
@@ -293,12 +296,7 @@ const Header = () => {
                           href={service.href || '#'}
                           onClick={(e) => {
                             e.preventDefault()
-                            if (service.isPage) {
-                              navigate(service.href)
-                              setIsMenuOpen(false)
-                            } else {
-                              scrollToSection(service.href.replace('#', ''))
-                            }
+                            handleServiceClick(service)
                           }}
                           className="block py-2 text-sm text-gray-600 hover:text-primary-600"
                         >

@@ -80,8 +80,8 @@ const Contact = () => {
     },
     {
       icon: <Phone className="h-6 w-6" />,
-      title: 'Phone Number',
-      details: ['+91 83747 65587'],
+      title: 'Phone Numbers',
+      details: ['+91 83747 65587', '+91 70755 04888'],
       action: 'Call Now',
       color: 'bg-blue-500',
       onClick: () => window.location.href = 'tel:+918374765587'

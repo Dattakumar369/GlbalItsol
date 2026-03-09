@@ -6,6 +6,7 @@ import About from './pages/About'
 import Blog from './pages/Blog'
 import Placements from './pages/Placements'
 import CareerGuidance from './pages/CareerGuidance'
+import IntensiveCareerProgram from './pages/IntensiveCareerProgram'
 import Contact from './pages/Contact'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/placements" element={<Placements />} />
         <Route path="/career-guidance" element={<CareerGuidance />} />
+        <Route path="/intensive-career-program" element={<IntensiveCareerProgram />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

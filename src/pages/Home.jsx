@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Stats from '../components/Stats'
 import FeaturedCourses from '../components/FeaturedCourses'
+import IntensiveCareerProgramSection from '../components/IntensiveCareerProgramSection'
 import LearningJourney from '../components/LearningJourney'
 import Services from '../components/Services'
 import Placements from '../components/Placements'
@@ -27,6 +28,7 @@ function Home() {
         <section id="courses">
           <FeaturedCourses />
         </section>
+        <IntensiveCareerProgramSection />
         <LearningJourney />
         <Services />
         <Placements />

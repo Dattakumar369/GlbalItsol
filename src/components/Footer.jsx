@@ -122,16 +122,19 @@ const Footer = () => {
               </li>
               <li>
                 <h4 className="text-white font-semibold mb-1">Call Us</h4>
-                <p className="text-sm">
-                  <a href="tel:+918374765587" className="hover:text-white transition-colors">
+                <p className="text-sm space-y-1">
+                  <a href="tel:+918374765587" className="block hover:text-white transition-colors">
                     +91 83747 65587
+                  </a>
+                  <a href="tel:+917075504888" className="block hover:text-white transition-colors">
+                    +91 70755 04888
                   </a>
                 </p>
               </li>
             </ul>
             <div className="mt-4">
               <h4 className="text-white font-semibold mb-3">Follow Us</h4>
-              <div className="flex gap-3">
+              <div className="flex gap-3 mb-3">
                 {socialLinks.map((social, index) => (
                   <a
                     key={index}
@@ -149,6 +152,15 @@ const Footer = () => {
                   </a>
                 ))}
               </div>
+              <a 
+                href="https://whatsapp.com/channel/0029VbCQ7Wg0rGiLqxR1S50t" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300"
+              >
+                <MessageCircle className="h-4 w-4" />
+                WhatsApp Channel
+              </a>
             </div>
           </div>
 

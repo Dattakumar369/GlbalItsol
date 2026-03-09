@@ -732,6 +732,10 @@ const CareerGuidance = () => {
                 <Phone className="h-5 w-5" />
                 <span>+91 83747 65587</span>
               </a>
+              <a href="tel:+917075504888" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Phone className="h-5 w-5" />
+                <span>+91 70755 04888</span>
+              </a>
               <a href="mailto:info@globalitsolutions.in" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Mail className="h-5 w-5" />
                 <span>info@globalitsolutions.in</span>
